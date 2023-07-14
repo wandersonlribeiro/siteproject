@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #000000;
+}
+
+header {
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    align-self: center;
+}
+
+header div img {
+    width: 150px;
+}
+
+header nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+header nav ul li a{
+    color: #AAA2CC;
+    padding: 10px 15px;
+
+}
+
+main {
+    margin: 0 auto;
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+main div img {
+    width: 100%;    
+}
