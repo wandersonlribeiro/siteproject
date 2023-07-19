@@ -1,22 +1,26 @@
 * {
-    margin: 0px;
+    margin: 0;
     padding: 0px;
     box-sizing: border-box;
     text-decoration: none;
     color: #000000;
+    font-family: Poppins, sans-serif;
+}
+
+h1 {
+   line-height: 0;
 }
 
 header {
-    margin: 0 auto;
-    width: 90%;
+    width: 1366px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    align-self: center;
+    margin: 0px auto;
 }
 
 header div img {
-    width: 150px;
+    width: 190px;
 }
 
 header nav ul {
@@ -24,19 +28,87 @@ header nav ul {
     list-style-type: none;
 }
 
+header nav ul li {
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
 header nav ul li a{
     color: #AAA2CC;
-    padding: 10px 15px;
+    padding: 10px 20px;
+}
 
+header nav ul li a:hover{
+    border-radius: 30px;
+    border: none;
+    background-image: linear-gradient( to right, #FE0173, #D842FF );
+    color: #fff;
 }
 
 main {
+    width: 1366px;
+    height: 700px;
     margin: 0 auto;
-    width: 90%;
-    display: grid;
-    grid-template-columns: 1fr 3fr;
+    display: flex;
 }
 
-main div img {
-    width: 100%;    
+.hero-container {
+    margin: 75px 75px 0px 75px;
+    display: flex;
+}
+
+.hero-container h1 {
+    font-family: Righteous, calibri, sans-serif;
+    font-weight: 200;
+    font-size: 120px;
+    line-height: 110px;
+    color: #8951DB;
+}
+
+.hero-container div h2 {
+    font-weight: 500;
+    font-size: 2.8rem;
+    letter-spacing: 0.2rem;
+    color: #CA66FF;
+}
+
+.hero-container div p {
+    margin-top: 32px;
+    font-size: 1.2rem;
+    color: #AAA2CC;
+}
+
+.hero-container button {
+    margin-top: 24px;
+    padding: 5px 40px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    background-image: linear-gradient( to right, #FE0173, #D842FF );
+    color: #fff;
+}
+
+.hero-container button:hover {
+    margin-top: 24px;
+    padding: 5px 40px;
+    border-radius: 50px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    border: none;
+    background: none;
+    color: #8951DB;
+}
+
+.hero-text {
+    width: 470px;
+}
+
+ .hero-image {
+
+}
+
+.hero-image img {
+   width: 900px;
 }
